@@ -83,8 +83,7 @@ int check(char arr[][size],int x,int y,char ch)
             }
             else
             {
-                for(int i=0;i<size;i++)
-                {
+          
                     if(arr[i][2]!=ch || arr[i][i]!=ch || arr[0][i])          //secondary diagonal
                     {
                         flag=1;
@@ -92,7 +91,7 @@ int check(char arr[][size],int x,int y,char ch)
                     }
                     if(flag==0)
                         return 1;
-                }
+                
             }
         }
         else
